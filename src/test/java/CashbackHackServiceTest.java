@@ -1,5 +1,6 @@
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Test;
+import org.junit.Assert;
+
 import ru.netology.service.CashbackHackService;
 
 public class CashbackHackServiceTest {
