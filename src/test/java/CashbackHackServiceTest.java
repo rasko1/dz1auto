@@ -10,7 +10,7 @@ public class CashbackHackServiceTest {
         int amount = 1000;
         int actual = service.remain(amount);
         int expected = 0;
-        Assert.assertEquals(actual,expected);
+        Assert.assertEquals(expected,actual);
 
     }
     @Test
@@ -19,14 +19,14 @@ public class CashbackHackServiceTest {
         int amount = 1200;
         int actual = service.remain(amount);
         int expected = 800;
-        Assert.assertEquals(actual,expected);
+        Assert.assertEquals(expected,actual);
     }
     @Test
     public  void buyDown(){
         CashbackHackService service = new CashbackHackService();
         int amount = 800;
         int actual = service.remain(amount);
-        int expected = 100;
-        Assert.assertEquals(actual,expected);
+        int expected = 200;
+        Assert.assertEquals(expected,actual);
 }
 }
